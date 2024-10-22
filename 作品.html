@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+
+    <title>图像悬停效果</title>
+    <link rel="stylesheet" href="../css/作品.css" />
+    <style>
+      body{
+        background: url("../picture/back.jpg");
+        background-size: 1700px 950px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--<div class="box">
+      <div style="width:auto; height:auto">
+        <img src="../picture/back.jpg" alt="">
+      </div>
+    </div>-->
+
+    
+    <div class="container">
+      <div class="box" id="box1">
+        <div class="img-box">
+            <img src="..\picture\2.jpg" alt="" />
+        </div>
+        <div class="text-box">
+          <div>
+            <h2>Amination</h2>
+          </div>
+        </div>
+      </div>
+      <div class="box" id="box2">
+        <div class="img-box">
+          <img src="..\picture\3.jpg" alt="" />
+        </div>
+        <div class="text-box">
+          <div>
+            <h2>Comic</h2>
+
+          </div>
+        </div>
+      </div>
+      <div class="box" id="box3">
+        <div class="img-box">
+          <img src="..\picture\4.jpg" alt="" />
+        </div>
+        <div class="text-box">
+          <div>
+            <h2>Game</h2>
+          </div>
+        </div>
+      </div>
+      <div class="box" id="box4">
+        <div class="img-box">
+          <img src="..\picture\1.png" alt="" />
+        </div>
+        <div class="text-box">
+          <div>
+            <h2>Novel</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const box1 = document.getElementById('box1');
+        const box2 = document.getElementById('box2');
+        const box3 = document.getElementById('box3');
+        const box4 = document.getElementById('box4');
+
+        box1.addEventListener('click', function(){
+          window.open('../html/amination.html','_blank');
+        });
+
+        box2.addEventListener('click', function(){
+          window.open('../html/comic.html','_blank');
+        });
+
+        box3.addEventListener('click', function(){
+          window.open('../html/game.html','_blank');
+        });
+
+        box4.addEventListener('click', function(){
+          window.open('../html/novel.html','_blank');
+        });
+      });
+
+    </script>
+  </body>
+</html>
